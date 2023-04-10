@@ -42,7 +42,7 @@ class ProductCard extends StatelessWidget {
                 child: Image.asset(
                   image,
                   width: 170,
-                  height: 150,
+                  height: 130,
                   fit: BoxFit.cover,
                 ),
               )),
@@ -64,12 +64,12 @@ class ProductCard extends StatelessWidget {
             style: TextStyle(fontSize: 14, fontWeight: FontWeight.w300),
           ),
           SizedBox(
-            height: 2,
+            height: 4,
           ),
           Text(
             "\$ $price",
             style: TextStyle(
-                fontSize: 16,
+                fontSize: 14,
                 fontWeight: FontWeight.bold,
                 color: Theme.of(context).primaryColor),
           )

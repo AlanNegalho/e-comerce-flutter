@@ -38,7 +38,7 @@ class SingnupPage extends StatelessWidget {
                     children: [
                       Text(
                         "Signup",
-                        style: Theme.of(context).textTheme.displaySmall,
+                        style: Theme.of(context).textTheme.headlineSmall,
                       ),
                       SizedBox(
                         height: 60,
@@ -51,7 +51,7 @@ class SingnupPage extends StatelessWidget {
                               TextStyle(color: Theme.of(context).primaryColor),
                         ),
                         style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                         ),
                       ),
                       SizedBox(
@@ -64,7 +64,7 @@ class SingnupPage extends StatelessWidget {
                           labelStyle: TextStyle(
                               color: Theme.of(context).primaryColor,
                               fontWeight: FontWeight.w400,
-                              fontSize: 16),
+                              fontSize: 15),
                         ),
                         style: TextStyle(
                           fontSize: 20,
@@ -81,7 +81,7 @@ class SingnupPage extends StatelessWidget {
                           labelStyle: TextStyle(
                               color: Theme.of(context).primaryColor,
                               fontWeight: FontWeight.w400,
-                              fontSize: 16),
+                              fontSize: 15),
                         ),
                         style: TextStyle(
                           fontSize: 20,

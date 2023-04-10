@@ -21,7 +21,7 @@ class CartPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Padding(
-                  padding: EdgeInsets.only(left: 20, top: 20),
+                  padding: EdgeInsets.only(left: 20, top: 10),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -37,7 +37,7 @@ class CartPage extends StatelessWidget {
                         style: TextStyle(
                             color: Theme.of(context).primaryColor,
                             fontWeight: FontWeight.bold,
-                            fontSize: 20),
+                            fontSize: 18),
                       )
                     ],
                   ),

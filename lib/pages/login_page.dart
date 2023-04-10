@@ -50,11 +50,12 @@ class LoginPage extends StatelessWidget {
                                 Text(
                                   'Welcome',
                                   style:
-                                      Theme.of(context).textTheme.displaySmall,
+                                      Theme.of(context).textTheme.headlineSmall,
                                 ),
                                 Text(
                                   'Sign in to continue',
-                                  style: Theme.of(context).textTheme.titleSmall,
+                                  style:
+                                      Theme.of(context).textTheme.labelMedium,
                                 ),
                               ],
                             ),
@@ -86,7 +87,7 @@ class LoginPage extends StatelessWidget {
                             labelStyle: TextStyle(
                               color: Theme.of(context).primaryColor,
                               fontWeight: FontWeight.w400,
-                              fontSize: 16,
+                              fontSize: 15,
                             ),
                           ),
                           style: TextStyle(
@@ -111,7 +112,7 @@ class LoginPage extends StatelessWidget {
                             labelStyle: TextStyle(
                               color: Theme.of(context).primaryColor,
                               fontWeight: FontWeight.w400,
-                              fontSize: 16,
+                              fontSize: 15,
                             ),
                           ),
                           style: TextStyle(fontSize: 20),
@@ -129,14 +130,12 @@ class LoginPage extends StatelessWidget {
                           child: TextButton(
                             child: Text(
                               "Forgot you password?",
-                              style: TextStyle(
-                                  color: Theme.of(context).primaryColor),
                             ),
                             onPressed: () {},
                           ),
                         ),
                         SizedBox(
-                          width: 10,
+                          height: 12,
                         ),
                         Container(
                           decoration: BoxDecoration(
